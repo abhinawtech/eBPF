@@ -1,0 +1,5 @@
+Build the eBPF Program:
+cargo build --release
+
+Run the Loader Program:
+sudo ./target/release/block_http_requests
